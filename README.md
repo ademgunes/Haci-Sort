@@ -8,6 +8,8 @@ It was designed to overcome the real-time constraints, asynchronous synchronizat
 overhead, and negative number limitations of the famous "Sleep Sort" by transforming
 time-based delays into purely mathematical subtractive reductions.
 
+![Sleep Sort](sleepsort.png)
+
 ## Example
 
  **Initial case:**
