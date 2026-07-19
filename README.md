@@ -35,15 +35,15 @@ Haci Sort simulates the linear flow of time by progressively reducing the values
 the array components in discrete steps.
 
 * **Dynamic Stepping:**
-  In every pass, the algorithm identifies the minimum element
-  (currentMin) within the remaining dataset.
+  In every pass, the algorithm identifies the minimum element **minVal** within
+  the remaining dataset.
 
 * **Batch Subtraction:**
-  It subtracts this currentMin value from all active elements in a single linear pass.
+  It subtracts this **minVal** value from all active elements in a single linear pass.
 
 * **Zero-Drop Elimination:**
-  Any element whose value drops to exactly 0 (or below 0 due to negative offset
-  alignment) is immediately moved to the final Sorted Array.
+  Any element whose value drops to exactly 0 (zero) (or below 0 due to negative
+  offset alignment) is immediately moved to the final sorted array.
 
 * **Active Pruning:**
   Elements that hit zero are dropped instantly and never checked
@@ -68,7 +68,7 @@ scientific data (e.g., test scores, ages, financial transactions).
 * **Loop Stabilization:**
   This reduces the total outer loop executions to the number of unique elements (K)
   rather than total elements (N), driving the practical runtime complexity down to
-  near-linear time (O(N)).
+  near-linear time O(N).
 
 
 ## COMPLEXITY ANALYSIS
