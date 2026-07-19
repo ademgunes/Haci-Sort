@@ -25,8 +25,8 @@ time-based delays into purely mathematical subtractive reductions.
 **Step 4:**
  \[0\], min: 0, result: \[2, 3, 5, 12\]
 
-At each step, subtract mininim value from elements and also find new minimum value.
-If value is 0 (zero), then drop it and add the related item to new list.
+At each step, subtract minimum value from elements and also find new minimum value.
+If value is 0 (zero), then drop it and add the related item to result list.
 
 ## CORE OPERATING PRINCIPLE
 
