@@ -27,7 +27,7 @@ time-based delays into purely mathematical subtractive reductions.
 **Step 4:**
  \[0\], min: 0, result: \[2, 3, 5, 12\]
 
-At each step, subtract minimum value from elements and also find new minimum value.
+At each step, we subtract minimum value from elements and also find new minimum value.
 If value is 0 (zero), then drop it and add the related item to result list.
 
 ## CORE OPERATING PRINCIPLE
@@ -56,7 +56,7 @@ the array components in discrete steps.
 
 While theoretical worst-case analysis places Haci Sort alongside traditional iterative
 sort methods, it exhibits unique performance mechanics on dense datasets within a
-bounded range —which represents the vast majority of real- world corporate and
+bounded range —which represents the vast majority of real-world corporate and
 scientific data (e.g., test scores, ages, financial transactions).
 
 * **Pigeonhole Optimization:**

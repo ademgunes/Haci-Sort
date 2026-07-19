@@ -21,7 +21,7 @@ begin
 
   SetLength(testArray, ARRAYSIZE);
 
-  // Generate dense realistic dataset (numbers between 0 and 100)
+  // Generate dense realistic dataset (numbers between 1 and 100)
   for i:=0 to ARRAYSIZE-1 do
     testArray[i] := Random(100) + 1;
 
@@ -29,7 +29,7 @@ begin
   Writeln('   HACI SORT vs COUNTING SORT BENCHMARK TOOL      ');
   Writeln('==================================================');
   Writeln('Dataset Size : ', ARRAYSIZE, ' elements');
-  Writeln('Data Range   : 0 to 100 (Highly Dense)');
+  Writeln('Data Range   : 1 to 100 (Highly Dense)');
   Writeln('--------------------------------------------------');
 
   // Clone array for Haci Sort
